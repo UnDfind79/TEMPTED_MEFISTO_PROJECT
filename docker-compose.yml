@@ -1,0 +1,24 @@
+services:
+  notebooks:
+    image: tempted-mefisto-comparison:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tempted-mefisto-notebooks
+    restart: unless-stopped
+    init: true
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    shm_size: "2gb"
+    environment:
+      JUPYTER_TOKEN: workflow
+      PYTHONUNBUFFERED: "1"
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent 'http://localhost:8888/api?token=workflow' >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 5
