@@ -1,2 +1,0 @@
-"batch","method","status","accuracy","balanced_accuracy","macro_f1","elapsed_seconds","error"
-"batch_013","TEMPTED","success",0.476190476190476,0.476190476190476,0.468552036199095,7.41200000000001,""
