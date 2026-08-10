@@ -1,0 +1,2 @@
+split_run,batch,method,status,accuracy,balanced_accuracy,macro_f1,elapsed_seconds,iterations_requested,error
+20260809_183835,batch_008,MEFISTO,success,0.6666666666666666,0.6666666666666666,0.6641559917166052,1920.1762596250046,1000,

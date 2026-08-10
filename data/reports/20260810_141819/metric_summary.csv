@@ -1,0 +1,5 @@
+,accuracy,accuracy,accuracy,accuracy,balanced_accuracy,balanced_accuracy,balanced_accuracy,balanced_accuracy,macro_f1,macro_f1,macro_f1,macro_f1
+,count,mean,std,median,count,mean,std,median,count,mean,std,median
+method,,,,,,,,,,,,
+MEFISTO,20,0.6214,0.0662,0.6349,20,0.6214,0.0662,0.6349,20,0.6205,0.0657,0.6342
+TEMPTED,20,0.627,0.0456,0.619,20,0.627,0.0456,0.619,20,0.6229,0.0471,0.6184

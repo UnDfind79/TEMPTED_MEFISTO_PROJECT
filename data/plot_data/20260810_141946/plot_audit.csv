@@ -1,0 +1,11 @@
+file,created,bytes
+07_classification_metrics.png,True,80515
+07_confusion_matrices.png,True,120594
+07_paired_batch_performance.png,True,146943
+07_runtime.png,True,44121
+07_latent_trajectory_comparison.png,True,1122008
+07_mefisto_factor_embedding.png,True,888328
+07_subject_country_separation_by_matched_dimension.png,True,194008
+07_top_feature_loading_agreement_by_matched_dimension.png,True,339524
+07_circular_greengenes_factor_weights.png,True,1238710
+07_circular_greengenes_top30_factor_weights.png,True,1209095
