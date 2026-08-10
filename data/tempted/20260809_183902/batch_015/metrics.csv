@@ -1,2 +1,0 @@
-"split_run","batch","method","status","accuracy","balanced_accuracy","macro_f1","elapsed_seconds","error"
-"20260809_183835","batch_015","TEMPTED","success",0.571428571428571,0.571428571428571,0.569663541092112,7.59,""
