@@ -57,7 +57,7 @@ RUN R -e "options(repos=c(CRAN='https://cloud.r-project.org'), Ncpus=max(1L, par
 # Fail the image build immediately if a required Python or R dependency is
 # missing. This prevents deploying a container that starts but cannot run the
 # notebooks.
-RUN python -c "import numpy, pandas, scipy, sklearn, matplotlib, h5py, anndata, muon, mofapy2; from Bio import Phylo" \
+RUN python -c "import numpy, pandas, scipy, sklearn, matplotlib, skbio, h5py, anndata, muon, mofapy2; from Bio import Phylo" \
     && R -e "stopifnot(all(vapply(c('IRkernel','nnet','tempted','dplyr','tidyr','ggplot2'), requireNamespace, logical(1), quietly=TRUE)))"
 
 # Project files are copied for image completeness. The Compose bind mount keeps
